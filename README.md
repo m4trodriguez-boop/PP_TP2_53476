@@ -6,29 +6,7 @@ Lenguaje: Java.
 Versión recomendada: Java 17 o superior.
 Paradigma: Programación Orientada a Objetos.
 Sin dependencias externas: el proyecto utiliza únicamente la biblioteca estándar de Java.
-2. Estructura del proyecto
 
-PP_TP1_53476-master/
-├── src/
-│   ├── App.java
-│   ├── actividades/
-│   │   ├── Actividad.java
-│   │   ├── Certificable.java
-│   │   ├── Charla.java
-│   │   ├── Curso.java
-│   │   └── Taller.java
-│   ├── excepciones/
-│   │   ├── CupoExcedidoException.java
-│   │   ├── CupoMinimoException.java
-│   │   └── DatosInvalidosException.java
-│   ├── hilos/
-│   │   └── EnvioTicketsThread.java
-│   └── modelo/
-│       ├── Estudiante.java
-│       ├── EventoUniversitario.java
-│       ├── Inscripcion.java
-│       └── Sala.java
-└── trabajoPracticoUno.iml
 El programa fue desarrollado en el IDE IntelliJ IDEA El programa se ejecuta en la clase App y busca generar como resultado:
 Crear eventos, salas, estudiantes y actividades (Charla, Taller y Curso).
 Inscribir estudiantes y controlar que no se supere el cupo.
